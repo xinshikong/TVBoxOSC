@@ -46,6 +46,7 @@
 
 # 保留support下的所有类及其内部类
 -keep class android.support.** {*;}
+-keep class com.xunlei.downloadlib.** {*;}
 # 保留继承的
 -keep public class * extends android.support.v4.**
 -keep public class * extends android.support.v7.**
